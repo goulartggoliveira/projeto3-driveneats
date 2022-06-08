@@ -53,6 +53,11 @@ body {
   font-size: 26px;
   margin-top: 31px;
 }
+.menu-descrip img {
+  width: 144px;
+  height: 87px;
+  border-radius: 4px;
+}
 .choice-title {
   margin: 0 11px 17px;
 }
@@ -82,7 +87,7 @@ body {
   font-weight: 700;
   height: 23px;
   font-size: 16px;
-  margin: 8px 0 4px;
+  margin: 8px 0 0px;
 }
 .food-descrip {
   font-family: "Roboto";
@@ -90,6 +95,7 @@ body {
   height: 39px;
   font-weight: 300;
   font-size: 15px;
+  margin: 8px 0px 0px;
   color: #a6a6a6;
 }
 .food-price {
