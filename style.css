@@ -1,0 +1,111 @@
+body {
+}
+.righteous {
+  font-family: "Righteous", cursive;
+}
+.big-container {
+  width: 414px;
+  height: 1026px;
+  margin-top: 92px;
+}
+/* NAV-BAR */
+.nav-bar {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 0;
+  width: 414px;
+  height: 92px;
+  background-color: #cf2b2b;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav-titles {
+  margin: 8px 21px 18px;
+  color: #ffffff;
+}
+.title {
+  font-weight: 400;
+  font-size: 44px;
+}
+.subtitle {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+}
+/* CONTEÚDO DO SITE */
+.site-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 1026px;
+  background-color: purple;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin-left: 19px;
+}
+.menu > p {
+  font-size: 26px;
+  margin-top: 31px;
+}
+.choice-title {
+  margin: 0 11px 17px;
+}
+.cards {
+  display: flex;
+}
+.menu {
+  margin-left: 11px;
+}
+.menu-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 172px;
+  height: 216px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  margin: 0px 8px;
+}
+.menu-descrip {
+  margin: 18px 11px 13px 14px;
+}
+.food-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  height: 23px;
+  font-size: 16px;
+  margin: 8px 0 4px;
+}
+.food-descrip {
+  font-family: "Roboto";
+  font-style: normal;
+  height: 39px;
+  font-weight: 300;
+  font-size: 15px;
+  color: #a6a6a6;
+}
+.food-price {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 5px;
+}
+/* FOLDER */
+.nav-folder {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 414px;
+  height: 92px;
+  opacity: 1;
+  background-color: green;
+}
