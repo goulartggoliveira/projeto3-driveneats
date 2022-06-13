@@ -29,10 +29,10 @@
         </div>
       </div>
       <div class="site-container">
-        <div class="menu first-cards">
+        <div class="menu first-cards prato">
           <p class="righteous choice-title">Primeiro, seu prato</p>
           <div class="cards">
-            <div class="menu-options">
+            <div class="menu-options" onclick="selecionarCard(this, 'prato')">
               <div class="menu-descrip">
                 <img
                   src="./img/frango_yin_yang 1.png"
@@ -43,10 +43,10 @@
                 <p class="food-descrip">
                   Um pouco de batata, um pouco de salada
                 </p>
-                <p class="food-price">R$ 16,90</p>
+                <p>R$<span class="food-price">16,90</span></p>
               </div>
             </div>
-            <div class="menu-options">
+            <div class="menu-options" onclick="selecionarCard(this, 'prato')">
               <div class="menu-descrip">
                 <img
                   src="./img/figado-pure.jpg"
@@ -59,10 +59,10 @@
                 <p class="food-descrip">
                   Delicioso bife de fígado, com o purê do chef
                 </p>
-                <p class="food-price">R$ 20,90</p>
+                <p>R$ <span class="food-price">20,90</span></p>
               </div>
             </div>
-            <div class="menu-options">
+            <div class="menu-options" onclick="selecionarCard(this, 'prato')">
               <div class="menu-descrip">
                 <img
                   src="./img/bisteca.jpg"
@@ -73,25 +73,25 @@
                   <strong>Bisteca suína com limão</strong>
                 </p>
                 <p class="food-descrip">Bisteca suína com limão</p>
-                <p class="food-price">R$ 22,90</p>
+                <p>R$ <span class="food-price">22,90</span></p>
               </div>
             </div>
-            <div class="menu-options">
+            <div class="menu-options" onclick="selecionarCard(this, 'prato')">
               <div class="menu-descrip">
                 <img src="./img/misto.jpg" alt="misto" class="food-pictures" />
                 <p class="food-name"><strong>Misto de carnes</strong></p>
                 <p class="food-descrip">
                   Carne, linguiça, frango e molho de churrasco
                 </p>
-                <p class="food-price">R$ 29,90</p>
+                <p>R$ <span class="food-price">29,90</span></p>
               </div>
             </div>
           </div>
         </div>
-        <div class="menu second-cards">
+        <div class="menu second-cards bebida">
           <p class="righteous choice-title">Agora, sua bebida</p>
           <div class="cards">
-            <div class="menu-options">
+            <div class="menu-options" onclick="selecionarCard(this, 'bebida')">
               <div class="menu-descrip">
                 <img
                   src="./img/coquinha_gelada 1.png"
@@ -100,18 +100,18 @@
                 />
                 <p class="food-name"><strong>Coquinha gelada</strong></p>
                 <p class="food-descrip">Lata 350ml</p>
-                <p class="food-price">R$ 3,50</p>
+                <p>R$ <span class="food-price">3,50</span></p>
               </div>
             </div>
-            <div class="menu-options">
+            <div class="menu-options" onclick="selecionarCard(this, 'bebida')">
               <div class="menu-descrip">
                 <img src="./img/Pepsi.png" alt="pepsi" class="food-pictures" />
                 <p class="food-name"><strong>Bébis geladinha</strong></p>
                 <p class="food-descrip">Melhor que coquinha</p>
-                <p class="food-price">R$ 4,50</p>
+               <p>R$ <span class="food-price">4,50</p></p> 
               </div>
             </div>
-            <div class="menu-options">
+            <div class="menu-options" onclick="selecionarCard(this, 'bebida')">
               <div class="menu-descrip">
                 <img
                   src="./img/GUARAVITA.jpg"
@@ -120,15 +120,18 @@
                 />
                 <p class="food-name"><strong>Guaravita</strong></p>
                 <p class="food-descrip">Tipo guaracamp, só que menos gostoso</p>
-                <p class="food-price">R$ 2,90</p>
+              <p>R$ <span class="food-price">2,90</span></p>  
               </div>
             </div>
           </div>
         </div>
-        <div class="menu third-cards">
+        <div class="menu third-cards sobremesa">
           <p class="righteous choice-title">Por fim, sua sobremesa</p>
           <div class="cards">
-            <div class="menu-options">
+            <div
+              class="menu-options"
+              onclick="selecionarCard(this, 'sobremesa')"
+            >
               <div class="menu-descrip">
                 <img
                   src="./img/pudim 1.png"
@@ -137,10 +140,13 @@
                 />
                 <p class="food-name"><strong>Pudim</strong></p>
                 <p class="food-descrip">Apenas pudim</p>
-                <p class="food-price">R$ 4,90</p>
+              <p>R$ <span class="food-price">4,90</span></p> 
               </div>
             </div>
-            <div class="menu-options">
+            <div
+              class="menu-options"
+              onclick="selecionarCard(this, 'sobremesa')"
+            >
               <div class="menu-descrip">
                 <img
                   src="./img/mousse.jpg"
@@ -149,10 +155,13 @@
                 />
                 <p class="food-name"><strong>mousse</strong></p>
                 <p class="food-descrip">Mousse de chocolate amargo</p>
-                <p class="food-price">R$ 6,90</p>
+               <p>R$ <span class="food-price">6,90</span></p> 
               </div>
             </div>
-            <div class="menu-options">
+            <div
+              class="menu-options"
+              onclick="selecionarCard(this, 'sobremesa')"
+            >
               <div class="menu-descrip">
                 <img
                   src="./img/banana.jpg"
@@ -161,7 +170,7 @@
                 />
                 <p class="food-name"><strong>Doce de banana</strong></p>
                 <p class="food-descrip">Não tão gostoso quanto o mousse</p>
-                <p class="food-price">R$ 8,90</p>
+              <p>R$ <span class="food-price">8,90</span></p>  
               </div>
             </div>
           </div>
@@ -169,7 +178,7 @@
       </div>
       <div class="nav-folder">
         <div class="button">
-          <button onclick="button()">
+          <button onclick="mensagemWhatsapp()">
             <p class="button-text">
               Selecione os 3 itens <br />
               para fechar o pedido

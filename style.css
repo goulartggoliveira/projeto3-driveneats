@@ -62,7 +62,10 @@ body {
   margin: 0 11px 17px;
 }
 .cards {
+  height: 230px;
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
   overflow-x: scroll;
 }
 .menu {
@@ -136,4 +139,12 @@ button {
   font-size: 20px;
   line-height: 23px;
   color: #ffffff;
+}
+
+.selecionado {
+  outline: 4px #32b72f solid;
+}
+
+.pedidoFinalizado {
+  background-color: #32b72f;
 }
